@@ -27,15 +27,15 @@ For Data assets including Damage Instigators, right click in the Project Browser
 ## Creating a simple Character
 Create a class extending StandardComponent for your character, and add the decorators:
 ### Damageable
-``` C#
+```c#
 [RequireStandardComponent(typeof(Damageable))]
 ```
 ### Weapon
-``` C#
+```c#
 [RequireStandardComponent(typeof(Weapon))]
 ```
 ### Projectile
-``` C#
+```c#
 [RequireStandardComponent(typeof(Projectile))]
 ```
 Then interface with them within your new Character Component. 
