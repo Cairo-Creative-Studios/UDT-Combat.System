@@ -1,8 +1,5 @@
 {
   "dependencies": {
-    "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
-    "com.cairo.udt": "file:UDTCore.unitypackage",
-    "com.unity.inputsystem" : "1.4.4",
-    "com.unity.cinemachine" : "2.8.9"
+    "Unity-Development-Toolkit" : "https://github.com/Cairo-Creative-Studios/Unity-Development-Toolkit.git"
   }
 }
