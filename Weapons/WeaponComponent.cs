@@ -9,7 +9,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
-namespace Armada.Systems.Weapons
+namespace Combat.Weapons
 {
     [ExecuteAlways]
     public class WeaponComponent : StandardComponent<WeaponComponentData>, IControllable

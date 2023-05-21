@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using Armada.Systems.Damage;
+using Combat.Damage;
 using NaughtyAttributes;
 using UDT.Core;
 using UnityEngine;
 
-namespace Armada.Systems.Weapons
+namespace Combat.Weapons
 {
     [CreateAssetMenu(fileName = "ProjectileComponentData", menuName = "Armada/Weapons/ProjectileComponentData", order = 0)]
     public class ProjectileComponentData : ComponentData<ProjectileComponent>

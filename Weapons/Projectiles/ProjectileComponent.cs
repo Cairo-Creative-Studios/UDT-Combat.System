@@ -1,10 +1,10 @@
 using System.Linq;
-using Armada.Systems.Damage;
+using Combat.Damage;
 using UDT.Core;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Armada.Systems.Weapons
+namespace Combat.Weapons
 {
     [RequireComponent(typeof(BoxCollider))]
     public class ProjectileComponent : StandardComponent<ProjectileComponentData>

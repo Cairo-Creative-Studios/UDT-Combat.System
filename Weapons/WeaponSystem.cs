@@ -1,6 +1,6 @@
 using UDT.Core;
 
-namespace Armada.Systems.Weapons
+namespace Combat.Weapons
 {
     public class WeaponSystem : System<WeaponSystem>
     {

@@ -1,7 +1,7 @@
 using UDT.Core;
 using UnityEngine;
 
-namespace Armada.Systems.Damage
+namespace Combat.Damage
 {
     [CreateAssetMenu(fileName = "DamageableComponentData", menuName = "Armada/Damage/DamageableComponentData", order = 0)]
     public class DamageableComponentData : ComponentData<DamageableComponent>

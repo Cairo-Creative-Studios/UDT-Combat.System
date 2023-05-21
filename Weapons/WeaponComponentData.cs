@@ -2,7 +2,7 @@ using NaughtyAttributes;
 using UDT.Core;
 using UnityEngine;
 
-namespace Armada.Systems.Weapons
+namespace Combat.Weapons
 {
     [CreateAssetMenu(fileName = "WeaponComponentData", menuName = "Armada/Weapons/WeaponComponentData", order = 0)]
     public class WeaponComponentData : ComponentData<WeaponComponent>

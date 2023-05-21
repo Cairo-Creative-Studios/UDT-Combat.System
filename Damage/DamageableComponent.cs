@@ -2,7 +2,7 @@ using UDT.Core;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace Armada.Systems.Damage
+namespace Combat.Damage
 {
     public class DamageableComponent : StandardComponent<DamageableComponentData, DamageSystem>
     {

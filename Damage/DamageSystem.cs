@@ -4,7 +4,7 @@ using System.Numerics;
 using UDT.Core;
 using Vector3 = UnityEngine.Vector3;
 
-namespace Armada.Systems.Damage
+namespace Combat.Damage
 {
     public class DamageSystem : System<DamageSystem>
     {

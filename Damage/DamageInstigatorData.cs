@@ -1,7 +1,7 @@
 using UDT.Core;
 using UnityEngine;
 
-namespace Armada.Systems.Damage
+namespace Combat.Damage
 {
     [CreateAssetMenu(fileName = "Damage Instigator", menuName = "Armada/Damage/DamageInstigatorComponentData", order = 0)]
     public class DamageInstigatorData : ScriptableObject
