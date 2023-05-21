@@ -2,8 +2,11 @@
 Weapons, Projectiles and a Damage System, the foundations of Combat systems, integrated with the Unity Development Toolkit.
 ===
 # Installation
-To use this, you must first have the UDT Core installed in your project: https://github.com/Cairo-Creative-Studios/Unity-Development-Toolkit
-Clone this Repository into your project. (.unitypackage coming soon) 
+In the Unity Package Manage click the + button and "Add package by git URL", then copy - paste this URL:
+```
+https://github.com/Cairo-Creative-Studios/UDT-Combat.System.git
+```
+and click "add"
 
 ---
 # Components 
