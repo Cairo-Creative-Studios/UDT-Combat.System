@@ -13,7 +13,7 @@
         "damage"
     ],
      "dependencies": {
-         "udt-core" : "https://github.com/Cairo-Creative-Studios/Unity-Development-Toolkit.git"
+         "Unity-Development-Toolkit" : "https://github.com/Cairo-Creative-Studios/Unity-Development-Toolkit.git"
      },
     "category": "Cairo Creative Studios"
 }
