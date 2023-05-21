@@ -1,0 +1,19 @@
+ {
+    "name": "com.cairo.combat",
+    "displayName": "Combat System for the UDT",
+    "version": "1.0.0",
+    "unity": "2018.1",
+    "description": "A combat system for unity, built on top of the UDT",
+    "keywords": [
+        "unity",
+        "combat",
+        "udt",
+        "weapons",
+        "projectile",
+        "damage"
+    ],
+     "dependencies": {
+         "UDT" : "https://github.com/Cairo-Creative-Studios/Unity-Development-Toolkit.git"
+     },
+    "category": "Cairo Creative Studios"
+}
