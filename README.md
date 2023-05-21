@@ -1,10 +1,11 @@
 # UDT - Foundational Combat System
 Weapons, Projectiles and a Damage System, the foundations of Combat systems, integrated with the Unity Development Toolkit.
-
+===
 # Installation
 To use this, you must first have the UDT Core installed in your project: https://github.com/Cairo-Creative-Studios/Unity-Development-Toolkit
 Clone this Repository into your project. (.unitypackage coming soon) 
 
+---
 # Components 
 
 ## Damageables
@@ -16,6 +17,7 @@ Extend the Damage Instigator class to create new forms of Damage, which apply Da
 ## Projectiles 
 Projectiles collide with Damageables and create Damage Instigators. 
 
+---
 # Usage
 
 ## In-Editor
@@ -24,18 +26,36 @@ Select Game Object > Add Component > Damageable, Weapon, or Projectile
 
 For Data assets including Damage Instigators, right click in the Project Browser and find Damaegable Data, DamageInstigator, Weapon Data, or Projectile Data.
 
-## Creating a simple Character
+---
+## Creating a simple Character in the Unity Editor
+1. AddComponent, Damageable
+2. AddComponent, Weapon
+3. Edit the properties of the Components to your liking.
+4. Create a basic MonoBehaviour for more control of your Character.
+
+## Creating a simple Projectile in the Unity Editor
+1. AddComponent, Projectile
+2. Edit the properties of the Components to your liking.
+
+## Creating a simple Character template in C#
 Create a class extending StandardComponent for your character, and add the decorators:
-### Damageable
 ```c#
 [RequireStandardComponent(typeof(Damageable))]
-```
-### Weapon
-```c#
 [RequireStandardComponent(typeof(Weapon))]
+public class Character : StandardComponent<CharacterData, CharacterSystem>
+{
+
+}
 ```
-### Projectile
+To use this newly created Standard Component, add it to your Game Object just like any Standard Component, and the UDT will work out the rest.
+Of course, you will have to change some properties to set up your character to your desires.
+
+## Creating a simple Projectile in C#
 ```c#
 [RequireStandardComponent(typeof(Projectile))]
+public class MyProjectile : StandardComponent<MyProjectiledata, WeaponSystem>
+{
+
+}
 ```
-Then interface with them within your new Character Component. 
+This newly created StandardComponent would log itself to the WeaponSystem so the Weapon System can keep track of it's state.
