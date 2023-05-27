@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Combat.Damage
 {
-    [CreateAssetMenu(fileName = "DamageableComponentData", menuName = "Armada/Damage/DamageableComponentData", order = 0)]
+    [CreateAssetMenu(fileName = "DamageableComponentData", menuName = "UDT Combat/DamageableComponentData", order = 0)]
     public class DamageableComponentData : ComponentData<DamageableComponent>
     {
         public float maxHealth;

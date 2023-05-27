@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Combat.Damage
 {
-    [CreateAssetMenu(fileName = "Damage Instigator", menuName = "Armada/Damage/DamageInstigatorComponentData", order = 0)]
+    [CreateAssetMenu(fileName = "Damage Instigator", menuName = "UDT Combat/DamageInstigatorComponentData", order = 0)]
     public class DamageInstigatorData : ScriptableObject
     {
         public float damage;

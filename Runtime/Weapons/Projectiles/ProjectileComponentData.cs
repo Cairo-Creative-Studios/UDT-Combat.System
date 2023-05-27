@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Combat.Weapons
 {
-    [CreateAssetMenu(fileName = "ProjectileComponentData", menuName = "Armada/Weapons/ProjectileComponentData", order = 0)]
+    [CreateAssetMenu(fileName = "ProjectileComponentData", menuName = "UDT Combat/ProjectileComponentData", order = 0)]
     public class ProjectileComponentData : ComponentData<ProjectileComponent>
     {
         [HorizontalLine(1f, EColor.Gray)]
